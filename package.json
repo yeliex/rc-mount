@@ -1,0 +1,27 @@
+{
+  "name": "rc-mount",
+  "version": "0.0.1",
+  "description": "react extra component mount decorator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/rc-mount.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-com",
+    "decorator",
+    "es6",
+    "antd"
+  ],
+  "author": "yeliex <yeliex@yeliex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeliex/rc-mount/issues"
+  },
+  "homepage": "https://github.com/yeliex/rc-mount#readme"
+}
