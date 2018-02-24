@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "babel-preset-stage-0"
+  ],
+  "plugins": [
+    "babel-plugin-transform-runtime"
+  ],
+  "env": {
+    "cjs": {
+      "presets": [
+        "es2015",
+        "react"
+      ],
+      "plugins": [
+        "babel-plugin-add-module-exports"
+      ]
+    }
+  }
+}
