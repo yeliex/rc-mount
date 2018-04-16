@@ -2,7 +2,10 @@
   "name": "rc-mount",
   "version": "1.0.1",
   "description": "react extra component mount decorator",
-  "main": "index.js",
+  "main": "src/index.js",
+  "browser": "dist/index.js",
+  "module": "lib/index.js",
+  "jsnext:main": "es/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config scripts/webpack/index.js --color --progress --env dev",
