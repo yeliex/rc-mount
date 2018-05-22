@@ -1,4 +1,6 @@
 # rc-mount
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/yeliex/rc-mount.svg)](https://greenkeeper.io/)
 react extra component mount decorator
 
 [![NPM version][npm-image]][npm-url]
