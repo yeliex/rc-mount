@@ -1,6 +1,6 @@
 {
   "name": "rc-mount",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react extra component mount decorator",
   "main": "src/index.js",
   "browser": "dist/index.js",
