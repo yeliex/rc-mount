@@ -21,7 +21,7 @@ const mount = <R = any, P = any>(options: IProps = {}) => {
     return (Component: ComponentType<P & ComponentMountProps<R>>) => {
         const componentName = Component.displayName || Component.name;
 
-        return (attributes: P): RenderResponse<R> => {
+        return (attributes?: P ): RenderResponse<R> => {
             let container = window.document.createElement(element);
             componentName && container.setAttribute('data-is', componentName);
             window.document.body.appendChild(container);
