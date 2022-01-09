@@ -7,7 +7,7 @@ interface IProps {
 
 export interface ComponentMountProps<R = any> {
     destroy: () => void;
-    resolve: (value: R) => void;
+    resolve: (value?: R) => void;
     reject: (error?: unknown) => void;
 }
 
