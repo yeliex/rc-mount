@@ -1,4 +1,4 @@
-import { ComponentType, createElement } from 'react';
+import { type ComponentType, createElement } from 'react';
 import { unmountComponentAtNode, render } from 'react-dom';
 
 interface IProps {
